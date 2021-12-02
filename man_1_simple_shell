@@ -1,0 +1,16 @@
+.TH HSH 1 "09 december 2021" "simple_shell man page"
+.SH NAME
+.B hsh
+- A simple unix command interpeter.
+.SH sinopsis
+.B ./hsh
+.SH DESCRIPTION
+This program is a simple shell that has been made by the Holberton guidelines. it contains basic features and functions founds in other shell programs.
+.SS Overflow
+This shell is an executable that read lines from the prompt, interprets them, and generally executes other commands. it runs by compiling all .c files in the repository to create an executable.
+.SS PATH search
+When locating a command, this shell first looks to see if it has an executable by that name in the PATH of the env. then it looks for builtin commands by that name.
+.SS MODES
+.B hsh
+Interactive mode
+.SS
