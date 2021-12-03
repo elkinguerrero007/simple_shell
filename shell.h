@@ -8,6 +8,8 @@
 #include <stddef.h>
 #include <sys/type.h>
 
+
+void prompt(void);
 char *_getline(void);
 
 
