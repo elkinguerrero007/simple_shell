@@ -8,4 +8,7 @@
 #include <stddef.h>
 #include <sys/type.h>
 
+char *_getline(void);
+
+
 #endif
