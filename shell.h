@@ -16,5 +16,5 @@ void shell(int ac, char **av, char **env);
 void prompt(void);
 char *_getline(void);
 char **split_line(char *line);
-
+int bridge(char *check, char **args);
 #endif
