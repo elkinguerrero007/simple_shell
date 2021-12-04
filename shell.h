@@ -30,5 +30,6 @@ char **split_line(char *line);
 int bridge(char *check, char **args);
 int builtins_checker(char **args);
 void exit_shell(char **args, char *line, char **env);
+void env_shell(char **args, char *line, char **env);
 
 #endif
