@@ -1,6 +1,6 @@
 # SIMPLE SHELL - C PROGRAMMING LANGUAGE 
 
-![SHELL](https://giphy.com/gifs/hacker-hacking-binary-V4NSR1NG2p0KeJJyr5)
+![SHELL](https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif)
 
 ## ¿WHAT IS A SIMPLE SHELL?
 
