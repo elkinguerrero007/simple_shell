@@ -42,7 +42,7 @@ So, in general, a Shell is a user interface to use the services of a computer. I
 
 • **Elkin Guerrero Bastidas** - [Elkin](https://github.com/elkinguerrero007)
 
-• **Christian Sánchez Bolaños** - [Christian](https://github.com/cristaker)
+• **Christian Sánchez Bolaños** – [Christian](https://github.com/cristaker)
 
 ---
 
