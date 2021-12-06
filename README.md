@@ -22,7 +22,7 @@ Compiling the program using: gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
 
 ## TESTING
 
-• Interactive mode:
+### Interactive mode:
 
 $ ./hsh
 
@@ -36,7 +36,7 @@ hsh main.c shell.c
 
 $
 
-• Non-interactive mode:
+### Non-interactive mode:
 
 $ echo "/bin/ls" | ./hsh
 
