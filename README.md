@@ -6,7 +6,7 @@
 
 A Shell is a program that takes the command inputs written from the the user’s keyboard and passes them to the machine to execute them through the kernel. It also verifies if the command inputs from the user are correct.
 
-![SHELL2](<a href="https://ibb.co/dKc0QYM"><img src="https://i.ibb.co/zf5hSvx/imagen-1.jpg" alt="imagen-1" border="0"></a>)
+<a href="https://ibb.co/dKc0QYM"><img src="https://i.ibb.co/zf5hSvx/imagen-1.jpg" alt="imagen-1" border="0"></a>
 
 So, in general, a Shell is a user interface to use the services of a computer. It can be a command-line interface –the one we will build- or graphical user interface, like regular software such as Windows Office or Adobe suites.
 
