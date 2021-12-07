@@ -64,7 +64,9 @@ $
 
 ## FILES
 
-
+#FILE|#DESCRIPTION
+---|---
+[main.c](./main.c)|Entry point for shell
 
 ---
 
