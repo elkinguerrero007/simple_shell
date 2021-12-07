@@ -64,7 +64,7 @@ $
 
 ## FILES
 
-#FILE|DESCRIPTION
+FILE|DESCRIPTION
 ---|---
 [main.c](./main.c)|Entry point for shell.
 [shell.c](./shell.c)|Execute the shell.
@@ -72,8 +72,9 @@ $
 [builtins.c](./builtins.c)|Built in function.
 [tools.c](./tools.c)|Tool function.
 [prompt.c](./prompt.c)|Function contain prompt.
-[getenv.c](./getenv.c)|Gets inputted env.
+[_getenv.c](./_getenv.c)|Gets inputted env.
 [bridge.c](./bridge.c)|Check in builtin or not.
+[man_1_simple_shell](./man_1_simple_shell)|Man page.
 
 ---
 
