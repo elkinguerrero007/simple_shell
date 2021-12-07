@@ -47,6 +47,60 @@ char **split_line(char *line)
 	return (tokens);
 }
 /**
+ * check_for_builtins - Checks for builtins
+ * @args: Arguments passed from prompt
+ * @line: Buffer with line of input from user
+ * @env: Environment
+ * Return: 1 if builtins exist, 0 if they don't
+ */
+int check_for_builtins(char **args, char *line, char **env)
+{
+	builtins_t list[] = {
+		{"exit", exit_shell},
+		{"env", env_shell},
+		{NULL, NULL}
+	};
+	int i;
+
+	for (i = 0; list[i].arg != NULL; i++)
+	{
+		if (_strcmp(list[i].arg, args[0]) == 0)
+		{
+			list[i].builtin(args, line, env);
+			return (1);
+		}
+	}
+	return (0);
+}
+int launch_prog(char **args)
+{
+	pid_t pid, wpid;
+	int status;
+
+	pid = fork();
+	if (pid == 0)
+	{
+		if (execve(args[0], args, NULL) == -1)
+		{
+			perror("Failed to execute command\n");
+			exit(0);
+		}
+	}
+	else if (pid < 0)
+	{
+		perror("Error forking\n");
+		exit(0);
+	}
+	else
+	{
+		do {
+			wpid = waitpid(pid, &status, WUNTRACED);
+		} while (!WIFEXITED(status) && WIFSIGNALED(status));
+	}
+	(void)wpid;
+	return (1);
+}
+/**
  * builtins_checker - Checks for builtins
  * @args: Arguments passed from prompt
  * Return: 1 if builtins exist, 0 if they don't

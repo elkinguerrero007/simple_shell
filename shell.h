@@ -32,6 +32,7 @@ int builtins_checker(char **args);
 void exit_shell(char **args, char *line, char **env);
 void env_shell(char **args, char *line, char **env);
 char *_getenv(char *env);
-
+int launch_prog(char **args);
+int check_for_builtins(char **args, char *line, char **env);
 
 #endif
