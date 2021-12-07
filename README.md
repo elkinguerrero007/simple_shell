@@ -90,6 +90,12 @@ $
 
 ---
 
+## BLOG
+
+[Blog Linkedin](https://www.linkedin.com/pulse/what-happens-when-ls-l-written-shell-sanchez-bola%25C3%25B1os-2f/?trackingId=AtLSOWv3R2CxLqRTxx7QLw%3D%3D)
+
+---
+
 ## AUTHORS
 
 • **Elkin Guerrero Bastidas** - [Elkin](https://github.com/elkinguerrero007)
