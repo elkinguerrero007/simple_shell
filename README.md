@@ -16,7 +16,7 @@ So, in general, a Shell is a user interface to use the services of a computer. I
 
 ## COMPILATION
 
-Compiling the program using: gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
+Compiling the program using: gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 
 ---
 
@@ -114,6 +114,6 @@ FILE|DESCRIPTION
 
 ---
 
-
+![Thanks](https://media.giphy.com/media/l3q2FnW3yZRJVZH2g/giphy.gif)
 
 
