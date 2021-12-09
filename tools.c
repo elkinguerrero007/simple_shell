@@ -72,6 +72,12 @@ int check_for_builtins(char **args, char *line, char **env)
 	}
 	return (0);
 }
+/**
+ * launch_prog - Forks and launches unix cmd
+ * @args: Args for cmd
+ * Return: 1 on success
+ * **/
+
 int launch_prog(char **args)
 {
 	pid_t pid, wpid;
