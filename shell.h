@@ -32,7 +32,6 @@ int execute_prog(char **args, char *line, char **env, int flow);
 int bridge(char *check, char **args);
 int builtins_checker(char **args);
 char *save_path(char *tmp, char *path);
-char *read_dir(char *er, struct dirent *s, char *fi, int l, char *p, char *t);
 void exit_shell(char **args, char *line, char **env);
 void env_shell(char **args, char *line, char **env);
 int _strcmp(char *s1, char *s2);
