@@ -9,22 +9,20 @@
 
 void shell(int ac, char **av, char **env)
 {
-  char *tmp = NULL;
-  char *line;
-  char **args;
-  char *er;
-  char *filename;
-  int flow;
-  int status = 1;
-
-  er = "Error";
-  do {
+	char *tmp = NULL;
+	char *line;
+	char **args;
+	char *er;
+	char *filename;
+	int flow;
+	int status = 1;
+		er = "Error";
+	do {
 		prompt();
 		line = _getline();
-                args = split_line(line);
-                flow = bridge(args[0], args);
+		args = split_line(line);
+		flow = bridge(args[0], args);
 		if (flow == 2)
-
 		{
 			filename = args[0];
 			args[0] = find_path(args[0], tmp, er);
@@ -36,7 +34,7 @@ void shell(int ac, char **av, char **env)
 			}
 		}
 		if (args[0] != er)
-		status = execute_prog(args, line, env, flow);
+			status = execute_prog(args, line, env, flow);
 		free(line);
 		free(args);
 	} while (status);
@@ -46,5 +44,4 @@ void shell(int ac, char **av, char **env)
 		(void)av;
 	if (!env)
 		(void)env;
-}  
-
+}
