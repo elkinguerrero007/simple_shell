@@ -8,7 +8,7 @@
 #include <dirent.h>
 #include <stddef.h>
 #include <errno.h>
-#include <sys/type.h>
+#include <sys/types.h>
 #include <sys/wait.h>
 
 #define TOKENS_BUFFER_SIZE 64

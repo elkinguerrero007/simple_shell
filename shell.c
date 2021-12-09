@@ -8,14 +8,14 @@
  * **/
 
 void shell(int ac, char **av, char **env)
-
+{
   char *tmp = NULL;
   char *line;
   char **args;
   char *er;
   char *filename;
   int flow;
-
+  int status = 1;
 
   er = "Error";
   do {
