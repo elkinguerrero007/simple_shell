@@ -75,6 +75,9 @@ FILE|DESCRIPTION
 [_getenv.c](./_getenv.c)|Gets inputted env.
 [bridge.c](./bridge.c)|Check in builtin or not.
 [man_1_simple_shell](./man_1_simple_shell)|Man page.
+[search_cwd.c](./search_cwd.c)|Gets current working directory.
+[find_path.c](./find_path.c)|finds path.
+[execute.c](./execute.c)|Executed builtin or binary.
 
 ---
 
@@ -116,4 +119,4 @@ FILE|DESCRIPTION
 
 ![Thanks](https://media.giphy.com/media/l3q2FnW3yZRJVZH2g/giphy.gif)
 
-
+---
