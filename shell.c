@@ -34,3 +34,5 @@ void shell(int ac, char **av, char **env)
 					write(1, er, 5);
 			}
 		}
+		if (args[0] != er)
+
