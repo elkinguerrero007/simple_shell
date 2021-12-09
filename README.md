@@ -1,4 +1,4 @@
-# SIMPLE SHELL - C PROGRAMMING LANGUAGE 
+# SIMPLE SHELL - C PROGRAMMING LANGUAGE
 
 ![SHELL](https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif)
 
