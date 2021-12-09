@@ -10,7 +10,6 @@
 #include <errno.h>
 #include <sys/types.h>
 #include <sys/wait.h>
-
 #define TOKENS_BUFFER_SIZE 64
 #define LINE_SIZE 1024
 #define TOKEN_DELIMITERS " \t\r\n\a"
@@ -25,7 +24,6 @@ typedef struct builtins
 	char *arg;
 	void (*builtin)(char **args, char *line, char **env);
 } builtins_t;
-
 void shell(int ac, char **av, char **env);
 void prompt(void);
 char *_getline(void);
@@ -48,5 +46,4 @@ int _strlen(char *s);
 char *save_path(char *tmp, char *path);
 char *read_dir(char *er, struct dirent *s, char *fil, int l, char *fp, char *t);
 char *find_path(char *filename, char *tmp, char *er);
-
 #endif
