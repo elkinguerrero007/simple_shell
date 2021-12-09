@@ -44,6 +44,6 @@ int launch_prog(char **args);
 int check_for_builtins(char **args, char *line, char **env);
 int _strlen(char *s);
 char *save_path(char *tmp, char *path);
-char *read_dir(char *er, struct dirent *s, char *fil, int l, char *fp, char *t);
+char *read_d(char *er, struct dirent *s, char *fil, int l, char *fp, char *t);
 char *find_path(char *filename, char *tmp, char *er);
 #endif

@@ -29,7 +29,7 @@ char *find_path(char *filename, char *tmp, char *er)
 		}
 		while ((sd = readdir(dir)))
 		{
-			ret = read_dir(er, sd, filename, len, file_path, tmp);
+			ret = read_d(er, sd, filename, len, file_path, tmp);
 			if (ret != er)
 			{
 				closedir(dir);
@@ -46,7 +46,7 @@ char *find_path(char *filename, char *tmp, char *er)
 }
 
 /**
- * read_dir - opens and reads directory file names in search of fil
+ * read_d - opens and reads directory file names in search of fil
  * @er: error message
  * @s: struct containing info about a files in a directory
  * @fil: name of file being searched for
@@ -56,7 +56,7 @@ char *find_path(char *filename, char *tmp, char *er)
  * Return: success - path of fil/fil, else er
  * **/
 
-char *read_dir(char *er, struct dirent *s, char *fil, int l, char *fp, char *t)
+char *read_d(char *er, struct dirent *s, char *fil, int l, char *fp, char *t)
 {
 	int i = 0;
 	char *ret;
